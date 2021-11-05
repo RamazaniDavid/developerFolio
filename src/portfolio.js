@@ -16,7 +16,7 @@ const greeting = {
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 with over 15 years of experience designing and creating large-scale systems such as financial systems and MIS with .Net Core / SQL server / JavaScript / Angular / AngularJS and some other cool libraries and frameworks."
   ),
-  resumeLink: "http://cv.ramazanidavid.infos", // Set to empty to hide the button
+  resumeLink: "http://cv.ramazanidavid.info", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -29,7 +29,7 @@ const socialMediaLinks = {
   gitlab: "https://gitlab.com/ramazani.david",
   facebook: "https://www.facebook.com/ramazanidavid",
   medium: "https://medium.com/@ramazanidavid",
-  stackoverflow: "https://stackoverflow.com",
+  // stackoverflow: "https://stackoverflow.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -88,11 +88,15 @@ https://fontawesome.com/icons?d=gallery */
       iconifyClassname: "logos:typescript-icon"
     },
     {
-      skillName: "angular",
+      skillName: "Angular",
       iconifyClassname: "logos:angular-icon"
     },
     {
-      skillName: "reactjs",
+      skillName: "AngularJS",
+      iconifyClassname: "logos:angular"
+    },
+    {
+      skillName: "ReactJS",
       iconifyClassname: "vscode-icons:file-type-reactjs"
     },
     {
@@ -100,32 +104,40 @@ https://fontawesome.com/icons?d=gallery */
       iconifyClassname: "vscode-icons:file-type-npm"
     },
     {
-      skillName: "sql-database",
+      skillName: "SQL Database",
       iconifyClassname: "vscode-icons:file-type-sql"
     },
     {
-      skillName: "aws",
+      skillName: "Aws",
       iconifyClassname: "logos:aws"
     },
     {
-      skillName: "firebase",
+      skillName: "Firebase",
       iconifyClassname: "logos:firebase"
     },
     {
-      skillName: "azure",
+      skillName: "Azure",
       iconifyClassname: "logos:azure-icon"
     },
     {
-      skillName: "git",
+      skillName: "Git",
       iconifyClassname: "logos:git-icon"
     },
     {
-      skillName: "docker",
+      skillName: "CI/CD",
+      iconifyClassname: "clarity:ci-cd-line"
+    },
+    {
+      skillName: "Docker",
       iconifyClassname: "logos:docker-icon"
     },
     {
-      skillName: "kubernetes",
+      skillName: "Kubernetes",
       iconifyClassname: "vscode-icons:folder-type-kubernetes-opened"
+    },
+    {
+      skillName: "Test Driven Development",
+      iconifyClassname: "file-icons:test-generic"
     }
   ],
   display: true // Set false to hide this section, defaults to true
