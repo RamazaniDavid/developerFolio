@@ -14,7 +14,7 @@ const greeting = {
   username: "David Ramazani",
   title: "Hi all, I'm David",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 with over 15 years of experience designing and creating large-scale systems such as financial systems and MIS with .Net Core / SQL server / JavaScript / Angular / AngularJS and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 with many years of experience designing and creating large-scale systems such as financial systems and MIS with .Net Core / SQL server / JavaScript / Angular / AngularJS and some other cool libraries and frameworks."
   ),
   resumeLink: "http://cv.ramazanidavid.info", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -107,34 +107,17 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "SQL Database",
       iconifyClassname: "vscode-icons:file-type-sql"
     },
-    {
-      skillName: "Aws",
-      iconifyClassname: "logos:aws"
-    },
+
     {
       skillName: "Firebase",
       iconifyClassname: "logos:firebase"
     },
-    {
-      skillName: "Azure",
-      iconifyClassname: "logos:azure-icon"
-    },
+
     {
       skillName: "Git",
       iconifyClassname: "logos:git-icon"
     },
-    {
-      skillName: "CI/CD",
-      iconifyClassname: "clarity:ci-cd-line"
-    },
-    {
-      skillName: "Docker",
-      iconifyClassname: "logos:docker-icon"
-    },
-    {
-      skillName: "Kubernetes",
-      iconifyClassname: "vscode-icons:folder-type-kubernetes-opened"
-    },
+
     {
       skillName: "Test Driven Development",
       iconifyClassname: "file-icons:test-generic"
@@ -225,7 +208,7 @@ const workExperiences = {
       role: "Head of Development",
       company: "Sysnatech",
       companylogo: require("./assets/images/sysnatech.png"),
-      date: "Jan 2016 – Present",
+      date: "2016 – Present",
       desc: "Designs and develops software solutions to solve pain points for various clients and their requirements, especially financial software.",
       descBullets: [
         "Senior SQL Server Developer",
@@ -237,7 +220,7 @@ const workExperiences = {
       role: "Software Developer",
       company: "EREC",
       companylogo: require("./assets/images/erec.png"),
-      date: "Jan 2009 – Jan 2016",
+      date: "2012 – 2016",
       desc: "Developed and implemented software solutions based on client requirements in the company.",
       descBullets: [
         "SQL Server Developer",
@@ -249,7 +232,7 @@ const workExperiences = {
       role: "Software Developer",
       company: "FaraAndish",
       companylogo: require("./assets/images/faraandish.png"),
-      date: "Jan 2005 – Jan 2009",
+      date: "2011 – 2012",
       desc: "Create software solutions based on each customer.",
       descBullets: [
         "Junior SQL Server Developerr",
